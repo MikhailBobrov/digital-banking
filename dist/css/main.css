@@ -740,6 +740,7 @@ img {
     flex-direction: column;
     transition: all .5s; }
   .top-line__list {
+    align-items: flex-start;
     flex-direction: column;
     margin-top: 30px; }
     .top-line__list li {
