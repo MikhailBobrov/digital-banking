@@ -1,0 +1,40 @@
+// Variables
+
+$website-width: 1210px;
+
+$dark: #000000;
+$darkblue: #071d68;
+$blue: #0b4bec;
+$grey: #333333;
+$grey: #808080;
+$lightgrey: #bebebe;
+$light: #cfcfcf;
+$space: #eeecec;
+$organic: #f3f2f2;
+$white: #ffffff;
+$first-back: rgba(4,4,4,0.09);
+$second-back: rgba(4,4,4,0.29);
+
+::placeholder {
+  color: #666
+}
+
+
+::selection {
+  color: #fff
+}
+
+input, textarea {
+  outline: none;
+
+  &:focus:required:invalid {
+    border-color: red;
+  }
+
+  &:required:valid {
+    border-color: green
+  }
+
+}
+
+
